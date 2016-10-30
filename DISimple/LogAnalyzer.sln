@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogAnalyzer.BLL", "LogAnalyzer.BLL\LogAnalyzer.BLL.csproj", "{4F5A58EC-FFA8-4C04-97BF-257705B4C5B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogAnalyzer.BLL.Test", "LogAnalyzer.BLL.Tests\LogAnalyzer.BLL.Test.csproj", "{7E17D6D7-79DB-409C-BECE-4C17D906FE7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution files", "Solution files", "{24909015-E57A-4E21-AF52-2C060545AB02}"
+	ProjectSection(SolutionItems) = preProject
+		logan.cmd = logan.cmd
+		RuleSet.ruleset = RuleSet.ruleset
+		Settings.StyleCop = Settings.StyleCop
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F5A58EC-FFA8-4C04-97BF-257705B4C5B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F5A58EC-FFA8-4C04-97BF-257705B4C5B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F5A58EC-FFA8-4C04-97BF-257705B4C5B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F5A58EC-FFA8-4C04-97BF-257705B4C5B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E17D6D7-79DB-409C-BECE-4C17D906FE7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E17D6D7-79DB-409C-BECE-4C17D906FE7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E17D6D7-79DB-409C-BECE-4C17D906FE7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E17D6D7-79DB-409C-BECE-4C17D906FE7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
